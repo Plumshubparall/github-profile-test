@@ -1,4 +1,5 @@
-                 ![pngtree-big-black-ruby-with-sparkling-effect-png-image_2627910](https://github.com/user-attachments/assets/8946ea9d-762f-42e5-9093-c2a3c833c0e6)
+      ![pngtree-big-black-ruby-with-sparkling-effect-png-image_2627910](https://github.com/user-attachments/assets/8dcd2761-281d-4a6b-9044-41dd6b5fcc01)
+
 <h1 align="center">Hola 👋 , soy alejandra</h1>
 <h3 align="center">Una apasionada desarrolladora de frontend de argentina</h3>
 
