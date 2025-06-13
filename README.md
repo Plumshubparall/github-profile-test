@@ -1,4 +1,21 @@
-
+# crear un circuito cuantico
+q0 = cirq.GriQubit,(0,0)
+q0 = cirq.GridQubit(1,0)
+qc = cirq.Circuit()
+# Agregar una puerta de Hadamard al primer qubit
+qc. append(cirq.H(q0))
+# Agregar una puerta de entrelazamiento entre los qubit
+qc.append(cirq.CNOT(q0,q1))
+# Agregar una puerta de rotacion al primer qubit
+qc.append(cirq.rx(0.5)(q0))
+#Optimizar el circuito cúantico 
+optimized_qc=cirq.merge_k_qubit_unitaries(qc,k=2)
+# imprimir el circuito cuántico original y optimizado
+prin("Circuito cuántico original:")
+print(qc)
+print(qc)
+print("Circuito cuántico optimizado:")
+print(optimized_qc)
 
 <h1 align="center">Hola 👋 , soy alejandra</h1>
 <h3 align="center">Una apasionada desarrolladora de frontend de argentina</h3>
