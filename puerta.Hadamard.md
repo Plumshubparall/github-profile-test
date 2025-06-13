@@ -17,6 +17,53 @@ print(qc)
 print("Circuito cuántico optimizado:")
 print(optimized_qc)
 
+impot cirq
+import numpy as np
+from skleam.datasets import fech_20Newsgroups
+from skleam.model_selection import train_test_split
+# Cargar el conjunto de datos  de 20 Newsgroups(subset="al")
+x = dataset.data 
+y = dataset.target 
+# Dividir el conjunto de datos en entrenamiento y prueba
+x_train,x_test,y_train,y_test = train_test_splint(x,y,test_size=0.2,random_state=42)
+# Definir el circuito cuántico 
+q0 = cirq.GridQubit(0,0)
+q1 = cirqGridQubit(1,0)
+qc = cirq.Circuit()
+# Agregar una puerta de Hadamard al primer qubit
+qc.append(cirq.H(q0))
+# Agregar una puerta de entrelazamiento entre los qubits
+qc.append(cirq.CNOT(Q0,Q1))
+# Definir el algoritmo de aprendisaje automático cuántico 
+def aprender (datos): 
+# Convertir los datos de texto a vectores numéricos 
+vectores = []
+for texto en datos:
+vector = np.array([ord(c)for c texto])
+vectores.append(vector)
+# Entrenar el modelo cuántico 
+Simulador = cirq.Simulador ()
+resultados =[]
+for vector in vectores:
+qc_copy =qc.copy()
+for i,valor in enumerate (vector):
+qc_copy.append(cirq.rx(valor)(q0))
+resultado = simulator.run(qc_copy,repetitions=1024)
+resultados.append(resultado)
+retum resultados
+# Entrenar el modelo 
+resultados =Aprender(x_train)
+# Evaluar el modelo 
+precision = 0 
+for i, resultado in enumerate(resultados):
+#Evaluar la precisión del modelo 
+pass 
+print("Precisión":precisión)
+
+
+
+
+
 <h1 align="center">Hola 👋 , soy alejandra</h1>
 <h3 align="center">Una apasionada desarrolladora de frontend de argentina</h3>
 
