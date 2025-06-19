@@ -17,3 +17,43 @@ print(qc)
 print("Circuito cuántico optimizado.")
 print(optimized_qc)
 
+## Resultados esperados 
+-----------------
+Al aplicar la puerta de Hadamard a un cubit en el estado |0,se espera obtener una superposiiónde los estados|0y|].
+
+###Resultados teóricos
+*Estado inicial:|0
+*Estado final:(|0+|1)/**1/2
+
+### Resultado de la simulacion 
+*[insertar imagen o tabla con resultados de la simulación]
+
+###Código para obtener resultados
+´python
+#Código para simular la puera de Hadamardy obtener resultados
+
+import numpy as np
+
+#Define la puerta de Hadamard 
+H=1/np.sqrt(2)*np.array([[1,1],[1,-1]])
+
+#Define el estado inicial |0
+estado_inicial=np.array([1,0])
+
+#Aplica la puerta de Hadamard al estado inicial
+estado_final=np.dot(H,estado_inicial)
+print("Estado final.",estado_final)
+
+
+import numpyas np
+
+#Define la puerta de Hadamard 
+
+H=1/2**0.5*np.array([[1,1],[1,-1]])
+#Define el estado inicial |0
+estado_inicial=np,array([1,0])
+
+#Aplica la puerta de Hadamard al estado inicial
+estado_final=np.dot(H,estado_inicial)
+
+print("Estado final.",estado_final)
