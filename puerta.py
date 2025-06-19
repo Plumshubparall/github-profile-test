@@ -19,7 +19,7 @@ print(optimized_qc)
 
 ## Resultados esperados 
 -----------------
-Al aplicar la puerta de Hadamard a un cubit en el estado |0,se espera obtener una superposiiónde los estados|0y|].
+Al aplicar la puerta de Hadamard a un cubit en el estado |0,se espera obtener una super posición de los estados|0y|].
 
 ###Resultados teóricos
 *Estado inicial:|0
