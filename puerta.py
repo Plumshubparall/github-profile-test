@@ -57,3 +57,26 @@ estado_inicial=np,array([1,0])
 estado_final=np.dot(H,estado_inicial)
 
 print("Estado final.",estado_final)
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+#Define la puerta de Hadamard
+H=1/2**05.*np.array([[1,1],[1,-1]])
+
+#Define el estado inicial |0 
+estado_inicial=np.array([1,0])
+
+#Aplica la puerta de Hadamard al estado inicial
+estado_final=np.dot(H,estado_inicial)
+
+#Crea un gráfico simple
+plt.bar([0,1],np.abs(estado_final)**2)
+plt.xlabel(´Estado´)
+plt.ylabel(´Probabilidad´)
+plt.title(Éstado final´) 
+plt.show()
+
+#Guarda el grafico como imagen 
+plt.savefig(éstado_final.png´)   
