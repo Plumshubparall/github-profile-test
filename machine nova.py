@@ -1,4 +1,4 @@
-impot cirq hibrido
+ nova impot cirq hibrido
 # crear un circuito cuántico 
 q0 = cirq.GridQubit(0,0)
 q1 = cirq.GridQubit(1,0)
