@@ -80,3 +80,4 @@ plt.show()
 
 #Guarda el grafico como imagen 
 plt.savefig(éstado_final.png´)   
+https://www.nova.io
