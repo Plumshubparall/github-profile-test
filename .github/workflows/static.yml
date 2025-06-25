@@ -25,5 +25,16 @@ metadata:
 authors:alejandra e lopez 
 keywords: sitio web,estatico
 
+variables:
+nombre: "MI PROYECTO" 
+VERSION:"1.0"
 
+Configuración:
+entorno: "produccion" 
+debug:false
+
+archivos:
+-"index.html"
+-"styles.css"
+-"script.js"
 
