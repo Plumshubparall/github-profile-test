@@ -63,4 +63,10 @@ qc.h(gate[´target¨])
 
 print (qc.draw())
 
+---
+quantum_circuit:
+num_qubits:1
+gates:
+-gate:hadamard
+target:0
 
