@@ -38,3 +38,29 @@ archivos:
 -"styles.css"
 -"script.js"
 
+#static.yml
+quantum_circuit:
+num_qubits:1
+gates:
+-gates:hadamard
+target:0
+
+import yaml
+from qiskit import quantumCircuit
+
+with open(´static.yml´.´r´) as f:
+config = yaml.safe_load(f)
+
+num_qubits = confg[¨quantum_circuit´]
+[´num_qubits´]
+gates = config[´quantum_circuit´][´gates´]
+qc = quantumCircuit(num_qubits)
+
+for gates in gates:
+
+if gates[´gate´] == ¨hadamard´:
+qc.h(gate[´target¨])
+
+print (qc.draw())
+
+
